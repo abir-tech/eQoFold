@@ -13,7 +13,7 @@
 | Team Lead & Quantum Expert | Quantum Expert / Commercial Lead |
 | [@AchrafBoussahi](https://github.com/AshrafBoussahi) | @Abeer |
 
-<img width="1266" height="730" alt="6030600942694108684" src="https://github.com/user-attachments/assets/0c7902a7-25e2-4182-8a50-c8f5138418b4" />
+<img width="1662" height="641" alt="6030600942694108684" src="https://github.com/user-attachments/assets/0c7902a7-25e2-4182-8a50-c8f5138418b4" />
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
