@@ -1,0 +1,48 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Node (the slide builder's dependencies)
+node_modules/
+
+# Working folders that are not part of the submission. The manuscript and the
+# deck are distributed through the Drive link in the README, and `improvements/`
+# is the pre-merge source tree these results were vendored from.
+improvements/
+report/
+report_final/
+report_final.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials -- Dirac-3 / QCi tokens must never be committed.
+.env
+*.token
+qci_*.json
+
+# Generated data. The reference table is the one exception: it is committed so
+# that `make verify` can diff a fresh build against it, which is the Phase 1
+# exit criterion.
+data/references/*
+!data/references/vienna_reference.csv
+!data/references/.gitkeep
+
+# Results are committed: figures illustrate the committed tables, and
+# 'make verify' diffs regenerated output against them.
+!results/tables/*.csv
+!results/figures/*.png

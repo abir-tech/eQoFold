@@ -1,0 +1,60 @@
+name: ci
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: test (${{ matrix.os }}, py${{ matrix.python-version }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+
+      - name: Lint
+        run: python -m ruff check src tests scripts
+
+      - name: Test
+        run: python -m pytest -q
+
+      # Phase 1 exit criterion: a clean clone must reproduce the reference
+      # table byte-for-byte. Regenerating in place and requiring a clean git
+      # tree is the strictest form of that check.
+      - name: Reproduce reference table
+        run: python scripts/build_reference.py
+
+      - name: Assert reference table is unchanged
+        shell: bash
+        run: |
+          if ! git diff --exit-code -- data/references/vienna_reference.csv; then
+            echo "::error::vienna_reference.csv is not reproducible from a clean clone"
+            exit 1
+          fi
+          echo "reference table reproduces exactly"
+
+      - name: Assert sequences are reproducible
+        shell: bash
+        run: |
+          python scripts/generate_sequences.py
+          if ! git diff --exit-code -- data/sequences/; then
+            echo "::error::tier FASTA files are not reproducible from the global seed"
+            exit 1
+          fi
+          echo "sequence tiers reproduce exactly"

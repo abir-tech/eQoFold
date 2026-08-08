@@ -1,0 +1,93 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rnaqopt"
+version = "0.1.0"
+description = "eQFold: qubit-efficient generative circuit search and Turner-calibrated model fidelity for RNA secondary-structure prediction (WISER 2026 Moderna Challenge)"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Abir Chekroun" },
+    { name = "Achraf Boussahi" },
+]
+keywords = ["RNA", "secondary structure", "MFE", "QUBO", "HOBO", "quantum optimization"]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+# Exact pins. Energies are only comparable across runs if the parameter set and
+# the numerics are identical, so every dependency that can touch a reported
+# number is pinned to a single version (plan section 4.1).
+dependencies = [
+    "ViennaRNA==2.7.2",
+    "numpy==2.2.6",
+    "pandas==2.2.3",
+    "scipy==1.15.1",
+    "matplotlib==3.10.0",
+    "PyYAML==6.0.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==8.3.4",
+    "ruff==0.9.6",
+]
+# Real QCi Dirac-3 hardware access. Deliberately optional: every result in the
+# repository reproduces without it via the credential-free simplex simulator,
+# and only experiments/run_dirac3_hardware.py needs it.
+hardware = [
+    "qci-client==5.0.0",
+]
+# The generative circuit-search track (GQE / PCE), i.e. `make circuits`. torch
+# runs the statevector simulator. The `qms` package that supplies the GQE
+# trainer and the PCE readout is the companion repository described in the
+# README under "Installing"; it is not distributed under that name on PyPI, so
+# it cannot be pinned here.
+circuits = [
+    "torch==2.6.0",
+]
+
+[project.scripts]
+rnaqopt-sequences = "rnaqopt.cli:generate_sequences_main"
+rnaqopt-reference = "rnaqopt.cli:build_reference_main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+# The generative circuit-search track (the flat modules directly under `src/`
+# and the tests that drive them) is vendored from the companion codebase that
+# produced its published results, and is kept byte-identical so those results
+# stay reproducible. It follows that codebase's conventions, not this one's, so
+# it is excluded from lint rather than reformatted.
+extend-exclude = [
+    "src/dataset.py",
+    "src/experiment_utils.py",
+    "src/hardware_aware.py",
+    "src/qubo_adapter.py",
+    "src/rna_encoding.py",
+    "src/solvers.py",
+    "src/style_wiser.py",
+    "src/vienna_utils.py",
+    "tests/test_rna_encoding.py",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

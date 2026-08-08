@@ -1,0 +1,15 @@
+# Measured Dirac-3 device time per job, run 2026-08-07 22:03-22:08 UTC+1.
+# Derived from the allocation-balance deltas reported by the API in the run log
+# (422 s at start, 315 s at end -> 107 s consumed over 9 accepted jobs).
+# All jobs: level 2, degree 3, num_samples=20, relaxation_schedule=1.
+# allocation_before/after are the API-reported balances in seconds.
+seq_id,scheme,encoded_vars,degree,allocation_before,allocation_after,device_seconds
+M_ml02,global_slack,18,3,422,417,5
+M_ml08,global_slack,23,3,417,410,7
+M_ml06,global_slack,31,3,410,403,7
+M_ml09,global_slack,33,3,403,396,7
+M_ml02,per_stem,34,3,396,389,7
+M_ml04,global_slack,35,3,389,381,8
+M_ml08,per_stem,44,3,381,372,9
+M_ml10,global_slack,62,3,372,353,19
+M_ml01,per_stem,78,3,353,315,38

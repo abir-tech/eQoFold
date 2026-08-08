@@ -1,0 +1,30 @@
+# Force LF in the repository AND in the working tree, on every platform.
+#
+# Without this, a Windows clone with core.autocrlf=true checks these files out
+# with CRLF, while the generators write LF -- so `make verify` and the CI
+# "reference table is unchanged" check report a spurious diff on a clone that
+# is in fact perfectly reproducible. Reproducibility is the Phase 1 exit
+# criterion, so this file is load-bearing, not cosmetic.
+
+* text=auto eol=lf
+
+# Generated data artifacts: byte-for-byte reproducibility is asserted in CI.
+*.csv   text eol=lf
+*.fasta text eol=lf
+
+# Source and docs.
+*.py    text eol=lf
+*.md    text eol=lf
+*.toml  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.txt   text eol=lf
+Makefile text eol=lf
+
+# PowerShell tolerates LF; keeping it uniform avoids a second exception.
+*.ps1   text eol=lf
+
+# Never touch these.
+*.png   binary
+*.pdf   binary
+*.ipynb binary

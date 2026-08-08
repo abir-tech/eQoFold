@@ -1,0 +1,26 @@
+# Conda alternative to the pip path.
+#
+#   conda env create -f environment.yml
+#   conda activate rnaqopt
+#   pip install -e .
+#
+# Both paths install ViennaRNA 2.7.2 and produce an identical reference table.
+# The pip path is the primary one (native wheels on all three platforms); conda
+# is offered because bioconda is the route most RNA people already have set up.
+
+name: rnaqopt
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - viennarna=2.7.2
+  - numpy=2.2.6
+  - pandas=2.2.3
+  - scipy=1.15.1
+  - matplotlib=3.10.0
+  - pyyaml=6.0.2
+  - pytest=8.3.4
+  - pip
+  - pip:
+      - ruff==0.9.6

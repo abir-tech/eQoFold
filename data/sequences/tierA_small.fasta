@@ -1,0 +1,40 @@
+>A_hp01 | tier=A | source=synthetic:designed-hairpin | notes=stem=5 loop=4 flank=0/1
+AGGUAAUUAUACCUU
+>A_hp02 | tier=A | source=synthetic:designed-hairpin | notes=stem=5 loop=5 flank=1/0
+AGAAACCCUUAGUUUC
+>A_hp03 | tier=A | source=synthetic:designed-hairpin | notes=stem=5 loop=6 flank=0/1
+UAUAUACAUAUAUAUAC
+>A_hp04 | tier=A | source=synthetic:designed-hairpin | notes=stem=6 loop=4 flank=1/1
+AGUACACAAAAGUGUACC
+>A_hp05 | tier=A | source=synthetic:designed-hairpin | notes=stem=6 loop=5 flank=0/2
+AAUAAGAUACUCUUAUUUG
+>A_hp06 | tier=A | source=synthetic:designed-hairpin | notes=stem=6 loop=6 flank=1/1
+CCGUUGGAAAAAACCAACGU
+>A_hp07 | tier=A | source=synthetic:designed-hairpin | notes=stem=8 loop=4 flank=0/1
+GAACGUCUCAAUAGACGUUCC
+>A_hp08 | tier=A | source=synthetic:designed-hairpin | notes=stem=8 loop=5 flank=1/0
+GCUACAUGUAAUUAACAUGUAG
+>A_rand01 | tier=A | source=synthetic:random | notes=len=15 gc_target=0.30 screen=helices_ge_1
+CACUCUUGGUGACCU
+>A_rand02 | tier=A | source=synthetic:random | notes=len=15 gc_target=0.43 screen=helices_ge_1
+GCGGAUGAACUCCAG
+>A_rand03 | tier=A | source=synthetic:random | notes=len=16 gc_target=0.57 screen=helices_ge_1
+AGGUCCACGAGGCCAG
+>A_rand04 | tier=A | source=synthetic:random | notes=len=17 gc_target=0.70 screen=helices_ge_1
+CGGGCGUCCAGCGGCCA
+>A_rand05 | tier=A | source=synthetic:random | notes=len=18 gc_target=0.30 screen=helices_ge_1
+GCAACAAAUUUCUUGUUU
+>A_rand06 | tier=A | source=synthetic:random | notes=len=19 gc_target=0.43 screen=helices_ge_1
+AGUCCACAUAGUUGGACAU
+>A_rand07 | tier=A | source=synthetic:random | notes=len=20 gc_target=0.57 screen=helices_ge_1
+GAUCGGCCCCAAGUUCGGGC
+>A_rand08 | tier=A | source=synthetic:random | notes=len=21 gc_target=0.70 screen=helices_ge_1
+GAGCUCGAUGGGCCUGUACUA
+>A_rand09 | tier=A | source=synthetic:random | notes=len=22 gc_target=0.30 screen=helices_ge_1
+UUUCAGCCAAUGCCUGGUGAAA
+>A_rand10 | tier=A | source=synthetic:random | notes=len=23 gc_target=0.43 screen=helices_ge_1
+CCAAGCUGCAUUACCAGGUUAGG
+>A_rand11 | tier=A | source=synthetic:random | notes=len=24 gc_target=0.57 screen=helices_ge_1
+GUCGGCUCCCUGAGCACUGUCAAU
+>A_rand12 | tier=A | source=synthetic:random | notes=len=25 gc_target=0.70 screen=helices_ge_1
+CGAGGCCAGCCCCGGCGGAGAAUUA

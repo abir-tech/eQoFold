@@ -1,0 +1,31 @@
+# Pinned mirror of the [project.dependencies] block in pyproject.toml.
+# Keep the two in sync -- tests/test_packaging.py enforces it.
+#
+# ViennaRNA ships native wheels on PyPI for CPython 3.10-3.12 on
+# Linux (manylinux), macOS (x86_64 + arm64) and Windows (amd64), so
+# `pip install -r requirements.txt` needs no compiler on any of the three.
+
+ViennaRNA==2.7.2
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.1
+matplotlib==3.10.0
+PyYAML==6.0.2
+
+# Development / CI only.
+pytest==8.3.4
+ruff==0.9.6
+
+# Optional: real QCi Dirac-3 hardware access, used only by
+# experiments/run_dirac3_hardware.py. Every result in the repository reproduces
+# without it via the credential-free simplex simulator. Pinned here so the
+# hardware path is reproducible too; `pip install -e .` alone does not pull it
+# (it lives in the [hardware] extra of pyproject.toml).
+qci-client==5.0.0
+
+# Optional: the generative circuit-search track (GQE / PCE), i.e. everything
+# under `make circuits`. torch runs the statevector simulator; the `qms`
+# package supplying the GQE trainer and the PCE readout is the companion
+# repository described in the README under "Installing" and is not on PyPI
+# under that name, so it is not pinned here.
+torch==2.6.0

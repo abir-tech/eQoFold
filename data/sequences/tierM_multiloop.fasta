@@ -1,0 +1,20 @@
+>M_ml01 | tier=M | source=synthetic:designed-multiloop | notes=branches=3 closing=5 branch_stem=4 loop=4 spacer=0 screen=multiloop
+CCCUUCCCGAAUUCGGGCGGCACAUGCCGAAGGG
+>M_ml02 | tier=M | source=synthetic:designed-multiloop | notes=branches=3 closing=4 branch_stem=4 loop=4 spacer=1 screen=multiloop
+GACGAUCCCAAAUGGGAACGGCUAAUGCCGACGUC
+>M_ml03 | tier=M | source=synthetic:designed-multiloop | notes=branches=3 closing=4 branch_stem=5 loop=4 spacer=0 screen=multiloop
+CCCGGCGCGAUAACGCGCCCGUGAAAUCACGGCGGG
+>M_ml04 | tier=M | source=synthetic:designed-multiloop | notes=branches=3 closing=5 branch_stem=4 loop=4 spacer=1 screen=multiloop
+GCACCACUGCACUCGCAGACGGGCCAACCCGAGGUGC
+>M_ml05 | tier=M | source=synthetic:designed-multiloop | notes=branches=3 closing=4 branch_stem=5 loop=4 spacer=1 screen=multiloop
+CACGACGCACCACCGUGCGACCGGCAAAAGCCGGACGUG
+>M_ml06 | tier=M | source=synthetic:designed-multiloop | notes=branches=3 closing=5 branch_stem=5 loop=4 spacer=1 screen=multiloop
+CGGGGAUGCGCAAAAGCGCAAGUGCCAAACGGCACACCCCG
+>M_ml07 | tier=M | source=synthetic:designed-multiloop | notes=branches=3 closing=5 branch_stem=5 loop=4 spacer=2 screen=multiloop
+GGGGUAAGCCGCUCCCGCGGCAAACGCGAACACGCGUAAACCCC
+>M_ml08 | tier=M | source=synthetic:designed-multiloop | notes=branches=4 closing=4 branch_stem=4 loop=4 spacer=1 screen=multiloop
+GCCGAUCGCCCCAGCGAAGAGGAAAACCUCACCCGAAAACGGGACGGC
+>M_ml09 | tier=M | source=synthetic:designed-multiloop | notes=branches=4 closing=5 branch_stem=4 loop=4 spacer=2 screen=multiloop
+CCGGGAAGCUCUCUAGAGCAAGGCGAAAACGCCAAUGCGUAAACGCAAACCCGG
+>M_ml10 | tier=M | source=synthetic:designed-multiloop | notes=branches=4 closing=4 branch_stem=5 loop=4 spacer=2 screen=multiloop
+CGUCAAGCGAGCAACCUCGCAAACCGCAAUCGCGGUAAGGCGCAAUCGCGCCAAGACG

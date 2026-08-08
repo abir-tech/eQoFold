@@ -1,0 +1,10 @@
+seq_id,tier,length,scheme,level,n_stems,encoded_vars,degree,n_terms,R,preflight_ok,preflight_issues,submitted,est_device_seconds
+M_ml02,M,35,global_slack,2,17,18,3,182,8.5,True,,False,3.84
+M_ml08,M,48,global_slack,2,22,23,3,407,11.0,True,,False,5.26
+M_ml06,M,41,global_slack,2,30,31,3,809,15.0,True,,False,7.7
+M_ml09,M,54,global_slack,2,32,33,3,845,16.0,True,,False,8.34
+M_ml02,M,35,per_stem,2,17,34,3,233,17.0,True,,False,8.67
+M_ml04,M,37,global_slack,2,34,35,3,657,17.0,True,,False,9.0
+M_ml08,M,48,per_stem,2,22,44,3,473,22.0,True,,False,12.06
+M_ml10,M,58,global_slack,2,61,62,3,3049,30.5,True,,False,18.71
+M_ml01,M,34,per_stem,2,39,78,3,1084,39.0,True,,False,25.1

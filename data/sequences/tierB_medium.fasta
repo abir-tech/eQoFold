@@ -1,0 +1,40 @@
+>B_rand01 | tier=B | source=synthetic:random | notes=len=30 gc_target=0.30 screen=helices_ge_1
+AAGUGAAUUUUCAGUCUUUGUAUUCAAUGA
+>B_rand02 | tier=B | source=synthetic:random | notes=len=31 gc_target=0.40 screen=helices_ge_1
+GACACUCAGAGAUUCAUGACAUUCUUUAAAC
+>B_rand03 | tier=B | source=synthetic:random | notes=len=33 gc_target=0.50 screen=helices_ge_1
+CUUGGCCGAUUGGGGGGCACUGCGGACAUGUAG
+>B_rand04 | tier=B | source=synthetic:random | notes=len=34 gc_target=0.60 screen=helices_ge_1
+CUCCUUAGGUAAUAGAGCAUGGUACAAGGGCACU
+>B_rand05 | tier=B | source=synthetic:random | notes=len=36 gc_target=0.70 screen=helices_ge_1
+CCGACCACGGGGAGACUGCGGGAGCAGGCUCGCCCG
+>B_rand06 | tier=B | source=synthetic:random | notes=len=37 gc_target=0.30 screen=helices_ge_1
+AAAUUUAAAAAUGUAACCCCUUAAAGUUACCGAUGUU
+>B_rand07 | tier=B | source=synthetic:random | notes=len=39 gc_target=0.40 screen=helices_ge_1
+UAAAAUAGUAGGGAUCUAUCUACUACCUCUUCUGCUUUA
+>B_rand08 | tier=B | source=synthetic:random | notes=len=41 gc_target=0.50 screen=helices_ge_1
+AGAGAACGAUUGACAGCAAAGGCCGGUCCGCGCCCCAAGCU
+>B_rand09 | tier=B | source=synthetic:random | notes=len=42 gc_target=0.60 screen=helices_ge_1
+GUUCGGUCCAAAACCGUCCUUACAGUGUACAGGCGGUGGCAG
+>B_rand10 | tier=B | source=synthetic:random | notes=len=44 gc_target=0.70 screen=helices_ge_1
+CCCCCGUGCGGGAGGGUGUCACUGGGCGCCAGUCGAGAUGUGAG
+>B_rand11 | tier=B | source=synthetic:random | notes=len=45 gc_target=0.30 screen=helices_ge_1
+UGAUAUUUCAGGCUAACAACCAUAUGUAUCGACUGGGGAUAAAUG
+>B_rand12 | tier=B | source=synthetic:random | notes=len=47 gc_target=0.40 screen=helices_ge_1
+CCGUUGAUAUGAAGAUCUGCAAAUCGGCUUUCUCAGGGUACUCUUAA
+>B_rand13 | tier=B | source=synthetic:random | notes=len=48 gc_target=0.50 screen=helices_ge_1
+GAUGUCCAUCUUGCGCGAAUGCUAAUGUUUGAGGCUUGUUUUAGUAGU
+>B_rand14 | tier=B | source=synthetic:random | notes=len=50 gc_target=0.60 screen=helices_ge_1
+UGCAAACUAACUAUGUUCUGUUCCCGCCCGCCUCCCUCGCUUCCGCUAUC
+>B_rand15 | tier=B | source=synthetic:random | notes=len=52 gc_target=0.70 screen=helices_ge_1
+GUGGUAGUUUGCGCACGAGGCGUCCAGUCGCCCCGACGCGGGUACAGAUACG
+>B_rand16 | tier=B | source=synthetic:random | notes=len=53 gc_target=0.30 screen=helices_ge_1
+GGUAACGAGUCAGAAAUUGAUGAGAUGUUUUUUGUAAAUUAGUUGAUAAUGAC
+>B_rand17 | tier=B | source=synthetic:random | notes=len=55 gc_target=0.40 screen=helices_ge_1
+UUUACCAGGGACUAUCAUAAGAAAACUAAUAUGCGUGAAUUUUUUACAAAUAAAU
+>B_rand18 | tier=B | source=synthetic:random | notes=len=56 gc_target=0.50 screen=helices_ge_1
+CAGUCGAUAUUAGGAAUCUUGUCUGCUGUGUCAACUGCAAUCUUAUUUAGAGAAGA
+>B_rand19 | tier=B | source=synthetic:random | notes=len=58 gc_target=0.60 screen=helices_ge_1
+CUAGAGCUCCGUGGCGCCGAGCCGAGAACGCGCAUUUCUUUAGUUGGCCCGGCGGGCG
+>B_rand20 | tier=B | source=synthetic:random | notes=len=60 gc_target=0.70 screen=helices_ge_1
+GCAAUGCCUCGGAUCGAGCUGCUCUGGACGCGGGGCAUAUUUGCACGCAAGGAGCGGCUU
