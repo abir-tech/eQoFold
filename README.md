@@ -13,6 +13,9 @@
 | Team Lead & Quantum Expert | Quantum Expert / Commercial Lead |
 | [@AchrafBoussahi](https://github.com/AshrafBoussahi) | @Abeer |
 
+<img width="1266" height="730" alt="6030600942694108684" src="https://github.com/user-attachments/assets/0c7902a7-25e2-4182-8a50-c8f5138418b4" />
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![ViennaRNA 2.7.2](https://img.shields.io/badge/ViennaRNA-2.7.2-0F766E.svg)](https://www.tbi.univie.ac.at/RNA/)
