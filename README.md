@@ -21,11 +21,12 @@ Submitted to the **WISER Global Quantum+AI Program 2026**, Moderna challenge:
 > **We wrote this up as a research paper, not a notebook dump.**
 > The full manuscript (two-column, with every number traced to a committed
 > results file) and the presentation deck live here:
-> **[eQFold: paper + slides (Google Drive)](PASTE_DRIVE_LINK_HERE)**
+> **[eQFold: paper + slides (Google Drive)](https://drive.google.com/drive/folders/17YslGheC_w08kT98M2XuiZFR-W9BXEgD?usp=sharing)**
 
 ---
 
 ## Why? and for what?
+
 
 An mRNA molecule folds back on itself the moment it is transcribed. Which bases
 pair with which decides how stable the molecule is, how efficiently it is
@@ -49,6 +50,9 @@ constraint, not the circuit.** One step up our model ladder is worth about seven
 times the entire spread of solver quality we measured on the same instances.
 
 ## Why us in this challenge?
+
+
+**We are familiar with implementing Generative Quantum Eigensolvers (GQE) in the field of quantum chemistry for molecular simulations.** We were selected as finalists in the global industry challenge for the Mitsubishi Chemical & The National Institute of Advanced Industrial Science and Technology (AIST) track, 'Harnessing the Generative Quantum Eigensolver for Next-Generation Materials Design.' You can check out our other work under the AiQC research group by clicking on our [website page](https://www.aiqcommunity.org/)
 
 **We had already built the hard part, for a different problem.** The Pauli
 correlation encoding and generative circuit search used here come from
