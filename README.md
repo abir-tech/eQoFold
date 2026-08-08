@@ -13,7 +13,7 @@
 | Team Lead & Quantum Expert | Quantum Expert / Commercial Lead |
 | [@AchrafBoussahi](https://github.com/AshrafBoussahi) | @Abeer |
 
-<img width="490" height="400" alt="6030600942694108684" src="https://github.com/user-attachments/assets/07006c58-632a-4755-8562-e3c4558e7753" />
+<img width="500" height="400" alt="6030600942694108684" src="https://github.com/user-attachments/assets/07006c58-632a-4755-8562-e3c4558e7753" />
 
 
 
