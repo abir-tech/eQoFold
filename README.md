@@ -1,6 +1,8 @@
-<img src="assets/banner.png" alt="eQFold" width="100%" />
+
 
 # *Qubit-Efficient Generative Circuit Search for RNA Secondary-Structure Prediction*
+
+<img src="assets/banner.png" alt="eQFold" width="100%" />
 
 **A quantum and quantum-inspired pipeline for minimum-free-energy mRNA folding: Pauli correlation encoding to fit the problem on a near-term qubit budget, a transformer that writes the circuit, a Turner-calibrated model ladder that says how much of the remaining error is the model's fault, and nine degree-three jobs on real photonic hardware.**
 
